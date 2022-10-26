@@ -1,7 +1,8 @@
-<<<<<<< HEAD
-#!/usr/bin/env python3
 
-from module_b import hyperbola
-from module_a import polynom_3
-#print('all went up to an end')
->>>>>>> module_a_dev
+import sys
+import os
+print(os.getcwd())
+sys.path.append('/fse/practice-project/useful_package/')
+import module_a
+import module_b
+#print(module_b.hyperbola(2))
